@@ -7,5 +7,28 @@
     text-transform: uppercase;
     border-radius: 10px;
     cursor: pointer;
+    transition:all 0.3s;
+}
 
+.ytb:hover {
+    opacity: 80%
+}
+
+.ytb:active{
+    opacity: 50%;
+}
+.join {
+    background-color: rgb(255,255,255);
+    color: blue;
+    border-color: blue;
+    height: 36px;
+    width: 60px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition:all 2s;
+}
+
+.join:hover{
+    color: white;
+    background-color: blue;
 }
